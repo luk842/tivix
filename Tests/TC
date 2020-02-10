@@ -1,0 +1,43 @@
+TC -1
+Scenario: User check if chosen data has proper validation - wrong data
+Preconditions: User have access to the page
+Step1 - User go to the page http://qalab.pl.tivixlabs.com/ - Done
+Step2 - User fill all mandatory fields, Contry, City, Model. - Done
+Step3 - User fill wrong date. For example, Drop-off date is earlier the Pick-up date - Done
+Step4 - User click Search button - Done
+Step5 - Check if notification about valid date occur, „please enter a valid date!” - Test positive
+
+TC -2
+Scenario: User check if form return correct search result - positive path
+Preconditions: User have access to the page
+Step1 - User go to the page http://qalab.pl.tivixlabs.com/ - Done
+Step2 - User fill Country filed - Poland - Done
+Step3 - User fill City filed - Warsaw - Done
+Step4 - User chose model fe. Audi - Done
+Step5 - User chose proper date fe. 03.02.2020-10.02.2020 - Done
+Step6 - User click Search button - Done
+Step7 - User check if form return proper results for our search setup - Tests positive
+
+TC -3
+Scenario: User check if he can rent a car for given parameters
+Preconditions: User have access to the page
+Step1 - User go to the page http://qalab.pl.tivixlabs.com/ - Done
+Step2 - User fill Country filed - Poland - Done
+Step3 - User fill City filed - Warsaw - Done
+Step4 - User chose model fe. BMW - Done
+Step5 - User chose proper date fe. 03.02.2020-10.02.2020 - Done
+Step6 - User click Search button - Done
+Step7 - User check if form return proper results for our search setup - Done
+Step8 - User chose one option from the list and click „Rent” - Done
+Step9 - User check if the next page has proper value - date and information about date are proper
+Step10 - User click button „Rent” - Done
+Step11 - User check if all information on the Summary are proper - validation positive
+Step12 - User fill all mandatory fields, Name, Last name, card nr, Email - Done
+Step13 - User click button „Rent” - Done
+Step14 - User should receive confirmation regarding rent offer - Test positive
+
+
+
+
+
+
