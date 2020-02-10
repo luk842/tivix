@@ -1,0 +1,27 @@
+1. Dropdown list Country, City tje view its not proper
+2. We can chose France and Berlin for example - no validation
+3. Model field - doesn't have any validation
+4. Calendar should looks better
+5. We can choose bad dates foe example PD on tomorrow, DD on today :)
+6. Cosmetic - the bid red notification to correct > UX
+7. Page reload doesn't work always - chrome
+8. We don't have validation/notification if we don't fill all data
+9. Search result doesn't work, always the same view result
+10. No list pagination
+11. Wrong row numbers
+12. No filters, sorting
+13. Sometimes we second names in Company names
+14. Some UX improvements :)
+15. Summary notification how fill fields, to improve
+16. No validation on Name, Last name fields
+17. To big notification abut req fields, they broke layout
+18. You can't reload the summary page
+19. The notification, don't disappear, even when we fill correct data
+20. A lot 404 !!!!
+21. Return to previous page, doesn't work correctly
+
+I to tak by było z grubsza :)
+
+
+
+

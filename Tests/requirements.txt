@@ -1,0 +1,7 @@
+How to execute:
+Setup proper path to chrome driver
+execute command: behave -D env=tivix -D browser=local_chrome
+
+What is to improve:
+ - drivers path
+ - selector from search result should be better :)
